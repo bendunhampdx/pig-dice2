@@ -18,4 +18,7 @@ describe('Player', () => {
   test('it should recognize when a number === 1', () => {
     expect(player.roll(1)).toEqual(true);
   });
+  test('it should recognize when a number !== 1', () => {
+    expect(player.roll(2)).toEqual(false);
+  });
 })

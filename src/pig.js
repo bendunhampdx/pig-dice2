@@ -12,6 +12,7 @@ Player.prototype.dice = function() {
 Player.prototype.roll = function(number) {
   if (number === 1) {
     return true
-  };
- 
+  } else {
+  return false
+  }
 };
